@@ -1,0 +1,8 @@
+
+int main (void) {
+  
+  int counter = 0;
+
+  
+  return 0;
+}
