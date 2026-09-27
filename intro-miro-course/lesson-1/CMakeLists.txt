@@ -1,9 +1,8 @@
 cmake_minimum_required(VERSION 3.20)
+
 project(Lesson1 C)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
-include(arm-gcc-toolchain.cmake)
 
 add_compile_options(
   -mcpu=cortex-m4
@@ -13,7 +12,10 @@ add_compile_options(
   -Wall
 )
 
-add_executables(main.elf src/main.c)
+add_executable(
+  main.elf 
+  src/main.c
+)
 
 target_link_options(
   main.elf
