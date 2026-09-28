@@ -7,17 +7,6 @@ int main (void) {
   ++counter;
   ++counter;
   ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
 
   return 0;
 }
