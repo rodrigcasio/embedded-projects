@@ -1,4 +1,4 @@
-
+// lesson 1
 int main (void) {
   
   int counter = 0;
