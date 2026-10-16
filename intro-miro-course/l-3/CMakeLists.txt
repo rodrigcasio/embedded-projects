@@ -5,7 +5,7 @@ project(Lesson3 C)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_compile_options(
-  -mcu=cortex-m4
+  -mcpu=cortex-m4 # change to m3 if using board to debugg
   -mthumb
   -O0
   -g3
@@ -20,7 +20,7 @@ add_executable(
 target_link_options(
   main.elf
     PRIVATE 
-    -mcu=cortex-m4
+    -mcpu=cortex-m4
     -mthumb
     --specs=nosys.specs
 )
