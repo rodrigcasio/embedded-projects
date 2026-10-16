@@ -6,6 +6,8 @@ int main (void) {
     ++counter;
     if ((counter & 1) != 0) {
       // do sth when the counter is odd
+    } else {
+      // do sth when the counter is even
     }
   }
   
