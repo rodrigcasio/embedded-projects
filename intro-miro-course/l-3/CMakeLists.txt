@@ -12,7 +12,7 @@ add_compile_options(
   -Wall
 )
 
-add_executables(
+add_executable(
   main.elf
   src/main.c
 )
