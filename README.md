@@ -25,10 +25,6 @@ qemu-system-arm -machine netduinoplus2 -cpu cortex-m4 -kernel build/main.elf -s 
 ** leaving this running and exposes port :1234 for GDB **
 ```
 
-```
-qemu-system-arm -machine netduinoplus2 -cpu cortex-m4 -device loader,file=build/main.elf -s -S
-```
-
 - Launch GDB & Run
 ```
 arm-none-eabi-gdb build/main.elf
